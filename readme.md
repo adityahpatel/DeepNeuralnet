@@ -2,7 +2,7 @@ I took a toy dataset of about 250 images of size 64 x 64 x 3. Some were inages o
 
 Built binary classifier to classify them as cats (1) or non-cats (0) <br>
 Initially implemented logistic regression from scratch i.e. calculated linear sum--> relu--> linearmsum--->sigmoid, calculated total loss over 200 training images ---> calculated gradient of loss with respect to all weights and biases. 
-<br>Trials:<br>
+<br>**Trials:**<br>
 (1) Built a 1 layer logistic regression predictor (Not uploaded in this repo)
 <br> 
 <br>
@@ -15,4 +15,4 @@ Initially implemented logistic regression from scratch i.e. calculated linear su
 <br>
 I have used RELU for all hidden neurons and sigmoid for output. Alternatively tanh can be used too. Avoided Sigmoid for all hidden layers except output layer. TanH mean-centers the data and Relu converges faster, so they're better than Sigmoid. 
 
-<u>Future Work</u>: No dropout layers, early stopping etc is implemented. Therefore, neural network overfits which is pretty common
+**Future Work**: No dropout layers, early stopping etc is implemented. Therefore, neural network overfits which is pretty common
