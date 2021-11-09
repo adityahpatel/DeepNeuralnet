@@ -15,4 +15,4 @@ Initially implemented logistic regression from scratch i.e. calculated linear su
 <br>
 I have used RELU for all hidden neurons and sigmoid for output. Alternatively tanh can be used too. Avoided Sigmoid for all hidden layers except output layer. TanH mean-centers the data and Relu converges faster, so they're better than Sigmoid. 
 
-<u>Future Work>/u>: No dropout layers, early stopping etc is implemented. Therefore, neural network overfits which is pretty common
+<u>Future Work</u>: No dropout layers, early stopping etc is implemented. Therefore, neural network overfits which is pretty common
