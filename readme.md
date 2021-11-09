@@ -1,6 +1,6 @@
-I took a toy dataset of about 250 images of size 64 x 64 x 3. Some were inages of cats, others weren't. Then split into train-test. 
+I took a toy dataset of about 250 images of size 64 x 64 x 3. Some were images of cats, others weren't. Then split into train-test. 
 
-Built binary classifier to classify them as cats (1) or non-cats (0) <br>
+Built binary classifier to classify/recognize them as cats (1) or non-cats (0) <br>
 Initially implemented logistic regression from scratch i.e. calculated linear sum--> relu--> linearmsum--->sigmoid, calculated total loss over 200 training images ---> calculated gradient of loss with respect to all weights and biases. 
 
 **TRIALS:**<br>
